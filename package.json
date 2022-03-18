@@ -4,6 +4,7 @@
   "description": "Download a file and save it",
   "main": "index.js",
   "scripts": {
+    "prepare": "npm i && tsc",
     "build:dev": "tsc --watch",
     "build": "tsc",
     "lint": "eslint ./src/** --fix"
